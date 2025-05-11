@@ -5,8 +5,8 @@
     <classes>
       <class name="databaseTesting.databaseTesting.AppTest">
         <methods>
-          <include name="ReadInToDatabase"/>
           <include name="mySetup"/>
+          <include name="createCustomer"/>
         </methods>
       </class> <!-- databaseTesting.databaseTesting.AppTest -->
     </classes>

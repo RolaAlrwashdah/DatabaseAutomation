@@ -44,7 +44,7 @@ public class AppTest {
 	   
    }
    
-   @Test(priority = 1,enabled = false)
+   @Test(priority = 1,enabled = true)
    public void createCustomer() throws SQLException {
 	String query= "INSERT INTO customers (customerNumber, customerName, contactLastName, contactFirstName, phone, addressLine1, city, country, salesRepEmployeeNumber, creditLimit) VALUES (999, 'New Corp', 'Smith', 'John', '123456789', '123 Main St', 'Los Angeles', 'USA', 1370, 50000.00)";   
 	
@@ -59,7 +59,7 @@ public class AppTest {
 	   
    }
    
-   @Test(priority = 2,enabled = false)
+   @Test(priority = 2,enabled = true)
    public void UpdateCustomer() throws SQLException {
 	   
 	   String query="Update customers Set contactFirstName='Rola', contactLastName='rwahsah' where customerNumber=999 ";
@@ -78,7 +78,7 @@ public class AppTest {
    public void ReadInToDatabase() throws SQLException {
 	   
 	   
-	  String query= "select * from customers where customerNumber=112";
+	  String query= "select * from customers where customerNumber=999";
 	  
 	  stmt=con.createStatement();
 	  
@@ -129,6 +129,19 @@ public class AppTest {
 //	  
 	  
 	  
+   }
+   
+   
+   @Test(priority = 4)
+   public void Delet() throws SQLException {
+	   
+	   String query="delete from customers where customerNumber=999";
+	   
+	   stmt= con.createStatement();
+	   
+	int rowresult   = stmt.executeUpdate(query);
+	   
+	   
    }
    
    
