@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-11T17:20:27 AST" name="Default suite" finished-at="2025-05-11T17:20:34 AST" duration-ms="7572">
+  <suite started-at="2025-06-19T19:00:53 AST" name="Default suite" finished-at="2025-06-19T19:01:03 AST" duration-ms="9890">
     <groups>
     </groups>
-    <test started-at="2025-05-11T17:20:27 AST" name="Default test" finished-at="2025-05-11T17:20:34 AST" duration-ms="7572">
+    <test started-at="2025-06-19T19:00:53 AST" name="Default test" finished-at="2025-06-19T19:01:03 AST" duration-ms="9890">
       <class name="databaseTesting.databaseTesting.AppTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:databaseTesting.databaseTesting.AppTest@18bc345]" started-at="2025-05-11T17:20:27 AST" name="mySetup" finished-at="2025-05-11T17:20:33 AST" duration-ms="5948" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-06-19T19:00:53 AST" name="mySetup" finished-at="2025-06-19T19:00:59 AST" duration-ms="5864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="createCustomer()[pri:1, instance:databaseTesting.databaseTesting.AppTest@18bc345]" started-at="2025-05-11T17:20:33 AST" name="createCustomer" finished-at="2025-05-11T17:20:33 AST" duration-ms="636" status="FAIL">
+        <test-method signature="createCustomer()[pri:1, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-06-19T19:00:59 AST" name="createCustomer" finished-at="2025-06-19T19:01:00 AST" duration-ms="1264" status="FAIL">
           <exception class="java.sql.SQLIntegrityConstraintViolationException">
             <message>
               <![CDATA[Duplicate entry '999' for key 'customers.PRIMARY']]>
@@ -56,15 +56,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCustomer -->
-        <test-method signature="UpdateCustomer()[pri:2, instance:databaseTesting.databaseTesting.AppTest@18bc345]" started-at="2025-05-11T17:20:33 AST" name="UpdateCustomer" finished-at="2025-05-11T17:20:33 AST" duration-ms="7" status="PASS">
+        <test-method signature="UpdateCustomer()[pri:2, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-06-19T19:01:00 AST" name="UpdateCustomer" finished-at="2025-06-19T19:01:02 AST" duration-ms="1366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpdateCustomer -->
-        <test-method signature="ReadInToDatabase()[pri:3, instance:databaseTesting.databaseTesting.AppTest@18bc345]" started-at="2025-05-11T17:20:33 AST" name="ReadInToDatabase" finished-at="2025-05-11T17:20:34 AST" duration-ms="845" status="PASS">
+        <test-method signature="ReadInToDatabase()[pri:3, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-06-19T19:01:02 AST" name="ReadInToDatabase" finished-at="2025-06-19T19:01:03 AST" duration-ms="905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadInToDatabase -->
-        <test-method signature="Delet()[pri:4, instance:databaseTesting.databaseTesting.AppTest@18bc345]" started-at="2025-05-11T17:20:34 AST" name="Delet" finished-at="2025-05-11T17:20:34 AST" duration-ms="39" status="PASS">
+        <test-method signature="Delet()[pri:4, instance:databaseTesting.databaseTesting.AppTest@65fe9e33]" started-at="2025-06-19T19:01:03 AST" name="Delet" finished-at="2025-06-19T19:01:03 AST" duration-ms="364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Delet -->

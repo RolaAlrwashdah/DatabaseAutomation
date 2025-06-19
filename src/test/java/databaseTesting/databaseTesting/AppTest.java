@@ -78,7 +78,7 @@ public class AppTest {
    public void ReadInToDatabase() throws SQLException {
 	   
 	   
-	  String query= "select * from customers where customerNumber=999";
+	  String query= "select * from customers where customerNumber=103";
 	  
 	  stmt=con.createStatement();
 	  
